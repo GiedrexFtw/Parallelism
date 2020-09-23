@@ -1,0 +1,255 @@
+
+  {
+    "cars": [
+      {
+        "mileage": 99678.66,
+        "year": 2019,
+        "brand": "RAV-4"
+      },
+      {
+        "mileage": 380879.77,
+        "year": 2018,
+        "brand": "Sebring"
+      },
+      {
+        "mileage": 283166.09,
+        "year": 2009,
+        "brand": "TundraMax"
+      },
+      {
+        "mileage": 136191.03,
+        "year": 2014,
+        "brand": "Explorer Sport"
+      },
+      {
+        "mileage": 258553.4,
+        "year": 2015,
+        "brand": "TrailBlazer"
+      },
+      {
+        "mileage": 621923.89,
+        "year": 2011,
+        "brand": "Punto"
+      },
+      {
+        "mileage": 75014.32,
+        "year": 2001,
+        "brand": "G5"
+      },
+      {
+        "mileage": 875527.22,
+        "year": 2004,
+        "brand": "Diablo"
+      },
+      {
+        "mileage": 369216.57,
+        "year": 2014,
+        "brand": "Sierra 1500"
+      },
+      {
+        "mileage": 463112.99,
+        "year": 2014,
+        "brand": "Carens"
+      },
+      {
+        "mileage": 880787.53,
+        "year": 2016,
+        "brand": "Avalon"
+      },
+      {
+        "mileage": 405262.18,
+        "year": 2005,
+        "brand": "3000GT"
+      },
+      {
+        "mileage": 791067.18,
+        "year": 2009,
+        "brand": "Vitara"
+      },
+      {
+        "mileage": 593811.04,
+        "year": 2003,
+        "brand": "F250"
+      },
+      {
+        "mileage": 229675.49,
+        "year": 2007,
+        "brand": "Allroad"
+      },
+      {
+        "mileage": 431016.5,
+        "year": 2009,
+        "brand": "Legacy"
+      },
+      {
+        "mileage": 637286.19,
+        "year": 2011,
+        "brand": "T100"
+      },
+      {
+        "mileage": 309035.11,
+        "year": 2008,
+        "brand": "Sequoia"
+      },
+      {
+        "mileage": 499311.46,
+        "year": 2015,
+        "brand": "Suburban 2500"
+      },
+      {
+        "mileage": 197413.48,
+        "year": 2005,
+        "brand": "Verona"
+      },
+      {
+        "mileage": 507380.58,
+        "year": 2009,
+        "brand": "MPV"
+      },
+      {
+        "mileage": 308694.53,
+        "year": 2009,
+        "brand": "Regal"
+      },
+      {
+        "mileage": 941424.94,
+        "year": 2019,
+        "brand": "Grand Marquis"
+      },
+      {
+        "mileage": 12181.79,
+        "year": 2004,
+        "brand": "Nitro"
+      },
+      {
+        "mileage": 84740.61,
+        "year": 2002,
+        "brand": "Charger"
+      },
+      {
+        "mileage": 165092.55,
+        "year": 2013,
+        "brand": "Truck"
+      },
+      {
+        "mileage": 195528.13,
+        "year": 2015,
+        "brand": "Suburban 1500"
+      },
+      {
+        "mileage": 511557.61,
+        "year": 2011,
+        "brand": "G-Series 1500"
+      },
+      {
+        "mileage": 261129.98,
+        "year": 2010,
+        "brand": "Z4"
+      },
+      {
+        "mileage": 187394.09,
+        "year": 2019,
+        "brand": "Sentra"
+      },
+      {
+        "mileage": 37595.67,
+        "year": 2004,
+        "brand": "Elise"
+      },
+      {
+        "mileage": 343600.56,
+        "year": 2007,
+        "brand": "Civic"
+      },
+      {
+        "mileage": 515587.32,
+        "year": 2012,
+        "brand": "GL-Class"
+      },
+      {
+        "mileage": 218127.28,
+        "year": 2001,
+        "brand": "Cougar"
+      },
+      {
+        "mileage": 392526.02,
+        "year": 2003,
+        "brand": "Yukon Denali"
+      },
+      {
+        "mileage": 792577.83,
+        "year": 2006,
+        "brand": "Colt"
+      },
+      {
+        "mileage": 658689.24,
+        "year": 2016,
+        "brand": "3 Series"
+      },
+      {
+        "mileage": 742079.06,
+        "year": 2007,
+        "brand": "I"
+      },
+      {
+        "mileage": 344470.23,
+        "year": 2008,
+        "brand": "Escape"
+      },
+      {
+        "mileage": 578916.0,
+        "year": 2006,
+        "brand": "Supra"
+      },
+      {
+        "mileage": 835501.83,
+        "year": 2001,
+        "brand": "Town Car"
+      },
+      {
+        "mileage": 113556.86,
+        "year": 2001,
+        "brand": "Park Avenue"
+      },
+      {
+        "mileage": 7052.92,
+        "year": 2008,
+        "brand": "GTO"
+      },
+      {
+        "mileage": 890078.99,
+        "year": 2004,
+        "brand": "Sunfire"
+      },
+      {
+        "mileage": 846200.3,
+        "year": 2005,
+        "brand": "911"
+      },
+      {
+        "mileage": 452641.97,
+        "year": 2019,
+        "brand": "E-Class"
+      },
+      {
+        "mileage": 702603.64,
+        "year": 2004,
+        "brand": "Expedition EL"
+      },
+      {
+        "mileage": 777000.52,
+        "year": 2001,
+        "brand": "Solara"
+      },
+      {
+        "mileage": 730849.52,
+        "year": 2004,
+        "brand": "A8"
+      },
+      {
+        "mileage": 791599.04,
+        "year": 2003,
+        "brand": "Jazz"
+      }
+    ]
+  }
