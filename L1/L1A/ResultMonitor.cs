@@ -20,7 +20,28 @@ namespace L1A
         {
             lock (this)
             {
-                data[Counter++] = carResult;
+                if (Counter == 0)
+                {
+                    data[Counter++] = carResult;
+                    return;
+                }
+                int position = Counter;
+                for (int i = 0; i < Counter; i++)
+                {
+                    if (carResult.Car.Year < data[i].Car.Year)
+                    {
+                        position = i;
+                        break;
+                    }
+                }
+                
+                for (int i = Counter; i >= position; i--)
+                {
+                    data[i+1] = data[i];
+                }
+                data[position] = carResult;
+                Counter++;
+                
             }
         }
 

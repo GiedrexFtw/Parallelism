@@ -36,8 +36,8 @@ namespace L1A
                 dataMonitor.AddItem(car);
             }
             stop = true;
-            //Patikrint kodel nesustoja(uzsisleepina ir neatsibunda threadai, 
-            //sudet sortintus(dabar deda paprastai), output to file
+            //Patikrint kodel nesustoja(uzsisleepina ir neatsibunda threadai)
+            // output to file
             threads.ForEach(thread => thread.Join());
             PrintToFile();
 
@@ -63,7 +63,21 @@ namespace L1A
 
         private static void PrintToFile()
         {
-            //formats to table and prints to result file results
+            using (StreamWriter writer = new StreamWriter("./IFF-7_5_BačkaitisG_L1a_rez.txt")) { 
+                var results = resultMonitor.GetItems().Where(result => result != null).ToArray();
+                if (results.Length != 0) {
+                    writer.WriteLine("{0,-20} | {1,-4} | {2,-15:0.00} | {3,-64} |", "Brand", "Year", "Mileage", "Hash");
+                    writer.WriteLine(new String('-', 114));
+                }
+                else {
+                    writer.WriteLine("Looks like none of the cars from data meet the criteria!");
+                }
+                foreach (var carResult in results)
+                {
+                    writer.WriteLine("{0,-20} | {1,-4} | {2,-15:0.00} | {3,64} |", carResult.Car.Brand, carResult.Car.Year,
+                    carResult.Car.Mileage,carResult.Result);
+                }
+            }
         }
     }
 }

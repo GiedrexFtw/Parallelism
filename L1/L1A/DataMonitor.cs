@@ -44,6 +44,7 @@ namespace L1A
             {
                 while(this.Counter == 0)
                 {
+                    if (Program.stop) { return; }
                     Monitor.Wait(this);
                 }
                 if(data[index].Year > 2000)
